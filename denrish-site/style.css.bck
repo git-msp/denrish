@@ -117,13 +117,6 @@ header {
   border: none;
   cursor: pointer;
 }
-input[name="_honey"] {
-  display: none;
-  visibility: hidden;
-  position: absolute;
-  left: -9999px;
-}
-
 
 footer {
   background: #009fb7;

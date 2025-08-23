@@ -61,24 +61,16 @@
       <li>🌍 Community Health Programs</li>
     </ul>
   </section>
-<form class="contact-form" action="https://formsubmit.co/your@email.com" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="engg.mhendra.singh@gmail.com" required />
-  <textarea name="message" placeholder="Your Message" required></textarea>
 
-  <!-- Honeypot field for spam protection -->
-  <input type="text" name="_honey" style="display:none">
-
-  <!-- Optional: disable CAPTCHA -->
-  <input type="hidden" name="_captcha" value="false">
-
-  <!-- Optional: redirect after submission -->
-  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
-
-  <p class="form-note">We respect your privacy. No spam, ever.</p>
-  <button type="submit" class="btn">Send Message</button>
-</form>
-
+  <!-- Contact -->
+  <section id="contact" class="section light">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
   <!-- Footer -->
