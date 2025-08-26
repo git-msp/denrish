@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/your-username/denrish-terraform-s3.git'
+        git 'https://github.com/git-msp/denrish-terraform-s3.git'
       }
     }
 
