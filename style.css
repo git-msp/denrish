@@ -1,0 +1,93 @@
+/* Reset & Base */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: #000;
+  overflow: hidden;
+}
+
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background: #fff;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 60px;
+  z-index: 10;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 0;
+}
+
+.footer a {
+  color: #4da6ff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer img {
+  height: 35px;
+  vertical-align: middle;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  display: none;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }
+
+.slideshow-container:hover .nav-btn {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo { height: 40px; top: 10px; left: 10px; }
+  .nav-btn { font-size: 24px; padding: 8px; }
+  .footer { font-size: 12px; }
+}
